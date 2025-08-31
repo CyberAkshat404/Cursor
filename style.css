@@ -1,0 +1,127 @@
+body {
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 22.66vw 48.68vw 22.66vw;
+    grid-template-rows: 25.87vh 48.24vh 25.87vh;
+    font-family: 'Tektur', sans-serif;
+    background-image: linear-gradient(blueviolet,white);
+    
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(77, 63, 63);
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.31vw;
+}
+
+.first,
+.second {
+    display: inline;
+    background-color: #b7afaf;
+    border-radius: 1.87rem;
+}
+
+.timer {
+
+    width: 13.12vw;
+    height: 9.03vh;
+    border-radius: 1.31vw;
+    background-color: #d0d0e2;
+    box-shadow: 0.62rem 0.31rem 0.31rem rgb(146, 126, 126);
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timer span{
+    cursor: pointer;
+}
+
+.countdown {
+    position: relative;
+    z-index: 2;
+}
+
+.part2 h1 {
+    width: 48.68vw;
+    height: 9.04vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.31vw;
+    background-color: #d0d0e2;
+    box-shadow: 0.62rem 0.31rem 0.31rem rgb(146, 126, 126);
+    font-size: 1.31vw;
+}
+.part2,.part3,.part4,.part6{
+    display: flex;
+    justify-content: center;
+    color: rgb(77, 63, 63);
+    font-weight: bold;
+    align-items: center;
+}
+
+.part3 h2{
+    width: 12.12vw;
+    height: 9.03vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+    background-color: #d0d0e2;
+    box-shadow: 0.62rem 0.31rem 0.31rem rgb(146, 126, 126);
+    font-size: 1.31vw;
+}
+    
+
+
+.part4 div,.part6 div
+{
+    width: 10.5vw;
+    height: 48.24vh;
+    border-radius: 1.25rem;
+    background-color: #d0d0e2;
+    box-shadow: 0.62rem 0.31rem 0.31rem rgb(146, 126, 126);
+}
+.box {
+    width: 48.68vw;
+    height: 48.24vh;
+    border-radius: 1.25rem;
+    background-color: #d0d0e2;
+    box-shadow: 0.62rem 0.31rem 0.31rem rgb(146, 126, 126);
+}
+
+.pointer {
+    width: 0.97vw;
+    height:0.97vh;
+}
+.pointer i{
+    margin-left: 7px;
+}
+.fa-solid {
+    width: 0.98vw;
+    height: 0.98vh;
+    position: absolute;
+    z-index: 2;
+    color: rgb(70, 7, 70);
+    display: inline;
+}
+
+.up {
+    transform: translateX(100px);
+}
+
+.number {
+    position: absolute;
+    z-index: 0;
+    width: 1.31vw;
+    height: 2.41vh;
+    font-size: 1.31vw;
+    color: rgb(20, 80, 164);
+}
